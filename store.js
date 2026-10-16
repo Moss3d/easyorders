@@ -2751,3 +2751,7 @@ vsCss(String.raw`
   }
 `);
 
+
+.ab-pgrid-title {
+  font-size: 2em; /* الضعف بالنسبة لحجم الخط الأصلي */
+}
