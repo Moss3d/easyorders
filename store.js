@@ -2749,9 +2749,11 @@ vsCss(String.raw`
   div:has(>.min_value_carousel) {
     display: none !important;
   }
-`);
-
 
 .ab-pgrid-title {
   font-size: 2em; /* الضعف بالنسبة لحجم الخط الأصلي */
 }
+
+
+  
+`);
