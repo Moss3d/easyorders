@@ -1122,7 +1122,7 @@
       const btn = document.createElement('button');
       btn.type = 'button';
       btn.className = 'desc-toggle-btn';
-      btn.innerHTML = `<span>عرض كامل الوصف والمواصفات ▾</span>`;
+      btn.innerHTML = `<span>عرض الوصف والمواصفات ▾</span>`;
 
       btn.addEventListener('click', function(e) {
         e.preventDefault();
@@ -1134,7 +1134,7 @@
           btn.innerHTML = `<span>عرض أقل ▴</span>`;
         } else {
           descContent.classList.add('desc-collapsed');
-          btn.innerHTML = `<span>عرض كامل الوصف والمواصفات ▾</span>`;
+          btn.innerHTML = `<span>عرض الوصف والمواصفات ▾</span>`;
           descContent.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
         }
       });
